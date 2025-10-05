@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "A portrait of Venancio Morales.",
+      "imageUrl": "/venancio.png",
+      "imageHint": "man portrait"
+    }
+  ]
+}
