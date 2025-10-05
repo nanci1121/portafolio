@@ -14,9 +14,9 @@ import type { ComponentType, SVGProps } from 'react';
   }
   
   export const contactInfo = {
-    email: 'mavipi@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/venancio-morales-valle-ab2b6252/',
-    github: 'https://github.com/nanci1121',
+    email: process.env.NEXT_PUBLIC_EMAIL || '',
+    linkedin: process.env.NEXT_PUBLIC_LINKEDIN_URL || '',
+    github: process.env.NEXT_PUBLIC_GITHUB_URL || '',
   };
 
   export const skills: Skill[] = [
